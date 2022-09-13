@@ -5,6 +5,7 @@ class compressor:
     def __init__(self,mass,freq):
         self.m=mass/2.5 #corrected mass flow rate (correlation range from 0.02 to 0.133 kg/s)
         self.freq=freq*1.2 #rpm #normalized corrected rpm (maximum 14000 rpm, range from 0.42 to 1)
+        #only applies to certain value
 
 
     def pr(self):
