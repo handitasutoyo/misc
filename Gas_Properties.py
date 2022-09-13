@@ -104,5 +104,5 @@ class gas_properties:
 
     def k(self):
         cp = self.cp()
-        k = cp*1000 / (cp*1000-8134)
+        k = cp*1000 / (cp*1000-8134) #try to comment this line
         return k
