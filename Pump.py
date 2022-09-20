@@ -6,6 +6,7 @@ class pump:
     def __init__(self,rate,freq):
         self.q=rate #m3/s
         self.w=freq #RPM
+        #try new things
     def head(self):
         a0=1.823*10**3
         a1=-5.641*10
